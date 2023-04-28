@@ -1,0 +1,6 @@
+.wrapper{
+    grid-area: footer;
+    background-color: #fe5f1e;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

@@ -1,0 +1,37 @@
+
+.wrapper {
+    border: 1px #fe5f1e solid;
+    background-color: #fff;
+    color: #fe5f1e;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 100px 300px;
+    position: relative;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.addPhoto {
+    display: block;
+    margin-top: 40px;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+
+.closeBtn {
+    font-size: 35px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.sbmtBtn {
+    font-size: 50px;
+    position: absolute;
+    bottom: 140px;
+    right: 230px;
+}

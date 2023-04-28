@@ -1,0 +1,36 @@
+.search{
+    position: relative;
+    width: 390px;
+    margin: 10px auto;
+}
+.input{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 10px 10px 42px;
+    width: 300px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+.input:focus{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.icon{
+    width: 24px;
+    opacity: 0.5;
+    position: absolute;
+    top: 1px;
+    left: 12px;
+}
+.clear{
+    width: 30px;
+    position: absolute;
+    right: 35px;
+    top: 7px;
+    opacity: 0.3;
+}
+.clear:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.none{
+    display: none;
+}

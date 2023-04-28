@@ -1,0 +1,129 @@
+
+.comment {
+    border: 1px #fe5f1e solid;
+    background-color: #fff;
+    color: #fe5f1e;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 30px;
+    position: relative;
+}
+
+.userName {
+    display: flex;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.comContainer {
+    border: 2px #fe5f1e solid;
+    padding: 50px 100px 100px;
+    background-color: white;
+    border-radius: 20px;
+    width: 30vw;
+    height: 60vh;
+    overflow: scroll;
+    position: relative;
+}
+
+.content {
+
+}
+
+.wrapper {
+
+}
+
+.addComm {
+    font-size: 50px;
+    color: #fe5f1e;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.closeBtn {
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.closeBtn:hover {
+    color: #fe5f1e;
+    transition: 0.4s;
+}
+
+.input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 12px 10px 10px 42px;
+    width: 300px;
+    border-radius: 12px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.enterBtn {
+    font-size: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.date {
+    font-size: 10px;
+    position: absolute;
+    color: black;
+    width: 50px;
+    right: 10px;
+    top: 1px;
+    border: 2px #fe5f1e solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.likes_block {
+    margin-left: 30px;
+    border: 2px #fe5f1e solid;
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.likesCount {
+    position: absolute;
+    top: 0;
+    left: 32px;
+}
+
+.likes {
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.likes > span {
+    margin-top: 10px;
+    border: 1px dimgray solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.likes > span:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+.likes > span:last-child {
+    margin-left: 7px;
+    color: green;
+}
+
+.likes > span:last-child:hover {
+    background-color: green;
+    color: white;
+}

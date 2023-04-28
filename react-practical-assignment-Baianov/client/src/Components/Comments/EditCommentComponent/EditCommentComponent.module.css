@@ -1,0 +1,9 @@
+
+.content {
+    border: 1px #fe5f1e solid;
+    background-color: #fff;
+    color: #fe5f1e;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 50px 100px;
+}
